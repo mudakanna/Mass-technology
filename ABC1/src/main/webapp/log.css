@@ -1,0 +1,80 @@
+@charset "UTF-8";
+body{
+	background: #00ffff;
+    background-image: url('image1/pexels-photomix-company-96627.jpg');
+    margin: 10%;
+    padding: 1%;
+}
+
+.header{
+      height: 100vh;
+}
+
+.navba{
+    box-shadow: 0 5px 10px black;
+    padding: 5px;
+}
+.logo{
+    height: 50px; 
+    padding: 2px 10px;
+}
+.icon-bar
+{
+    background: #00ffff;
+}
+li a
+{
+    color:aliceblue;
+}
+
+h5
+{
+    text-align: center;
+    text-shadow: 30px;
+}
+.justify
+{
+    font-size: 70px;
+    text-align: middle;q
+    font-style: italic;
+
+}
+.top1
+{
+    height: 200px;
+}
+.card-body{
+    height: 200px !important;
+}
+.card-text
+{
+   margin-bottom: 40px;
+}
+.headerset{
+    display: grid;
+    justify-items: center;
+    vertical-align: middle;
+}
+/Gallery Page CSS/
+.Gbody{
+    background-color: whitesmoke;
+}
+.SubHeading{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    max-width: 900px !important;
+}
+.TabImg{ 
+   opacity: 1;
+    left: 0px;
+    top: 0px;
+    position: relative;
+}
+.MainSection{ 
+    margin: "10%,45%,10%"
+    display grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0px;
+  
+  
+}
